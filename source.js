@@ -14,7 +14,12 @@ function magic(){
         document.getElementById('counter').innerText = "כמות הפעמים שיצא לך דאבל :" + count;
         }
         
-        
+        if(dice1 == dice2){
+            document.getElementById("result").innerHTML ="אלוף הדאבלים!!";
+        }
+        else
+        document.getElementById("result").innerHTML ="";
+
         // console.log(dice1);
         //   console.log(dice2);
           
